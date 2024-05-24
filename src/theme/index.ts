@@ -34,7 +34,7 @@ export const theme = createTheme({
         white: {
             main: '#fff',
             light: '#fff',
-            dark: '#bbb7',
+            dark: '#04D976',
             contrastText: '#000'
         },
         

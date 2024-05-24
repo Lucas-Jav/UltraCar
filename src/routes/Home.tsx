@@ -1,9 +1,10 @@
+import NavBar from "@/components/NavBar/Index";
 import { FC } from "react";
 
 const Home : FC = () => {
     return (
         <>
-            ola mundo
+            <NavBar />
         </>
     )
 }
