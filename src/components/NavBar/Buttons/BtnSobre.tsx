@@ -82,7 +82,10 @@ const BtnSobre : FC = () => {
         onClose={handleClose}
       >
         <MenuItem onClick={handleClose} disableRipple>
-          teste
+          Sobre Nós
+        </MenuItem>
+        <MenuItem onClick={handleClose} disableRipple>
+          Carreira
         </MenuItem>
 
       </StyledMenu>
