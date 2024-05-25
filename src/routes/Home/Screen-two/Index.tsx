@@ -44,6 +44,7 @@ const ScreenTwo : FC = () => {
             color="#262626"
             variant="h1"
             fontSize={30}
+            textAlign="center"
             fontWeight={700}>Baixe nosso aplicativo</Typography>
 
             <Stack

@@ -2,7 +2,8 @@
 import { Box, useMediaQuery } from "@mui/material";
 import { FC } from "react";
 import ScreenOne from "@/routes/Home/Screen-one/Index";
-import ScreenTwo from "./Screen-two/Index";
+import ScreenTwo from "@/routes/Home/Screen-two/Index";
+import ScreenThree from "@/routes/Home/Screen-three/Index";
 
 
 const Home : FC = () => {
@@ -10,8 +11,6 @@ const Home : FC = () => {
     const  media1440 =  useMediaQuery("(max-width: 1440px)");
     const  media768 =  useMediaQuery("(max-width: 768px)");
     const  media375 =  useMediaQuery("(max-width: 375px)");
-
-
 
     return (
         <Box
@@ -33,7 +32,10 @@ const Home : FC = () => {
         }}>
 
             <ScreenOne />
+
             <ScreenTwo />
+
+            <ScreenThree />
             
         </Box>
     )

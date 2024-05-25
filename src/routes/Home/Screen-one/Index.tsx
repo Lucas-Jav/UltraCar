@@ -45,7 +45,7 @@ const ScreenOne : FC = () => {
                 <Typography
                 mt={6}
                 variant="body1"
-                fontSize={media500 ? 20 : 20}
+                fontSize={20}
                 color="#616368">
                     Ultra car é um aplicativo de mobilidade que se destaca pela 
                     praticidade ao proporcionar serviços de transporte com excelência. 
