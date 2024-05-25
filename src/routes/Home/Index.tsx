@@ -6,6 +6,7 @@ import ScreenTwo from "./Screen-two/Index";
 
 
 const Home : FC = () => {
+    // responsive
     const  media1440 =  useMediaQuery("(max-width: 1440px)");
     const  media768 =  useMediaQuery("(max-width: 768px)");
     const  media375 =  useMediaQuery("(max-width: 375px)");

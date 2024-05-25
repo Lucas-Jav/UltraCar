@@ -2,6 +2,7 @@ import { Box, Button, Typography, useMediaQuery } from "@mui/material";
 import { FC } from "react";
 
 const ScreenOne : FC = () => {
+    // responsive
     const  media1024 =  useMediaQuery("(max-width: 1024px)");
     const  media500 =  useMediaQuery("(max-width: 500px)");
 
@@ -21,6 +22,7 @@ const ScreenOne : FC = () => {
                 <Box>
                     <Typography
                     variant="h1"
+                    color="#262626"
                     sx={{
                         fontSize: media500 ? 40 : 60,
                         fontWeight: 800
@@ -29,6 +31,8 @@ const ScreenOne : FC = () => {
                     </Typography>
                     <Typography
                     variant="h1"
+                    color="#262626"
+
                     sx={{
                         fontSize: media500 ? 40 : 60,
                         fontWeight: 800,

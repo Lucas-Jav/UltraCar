@@ -4,6 +4,7 @@ import { ThemeProvider } from '@emotion/react';
 import Router from '@/router.tsx';
 import { theme } from '@/theme/index';
 import "@/styles/index.css";
+import "@/styles/animation.css";
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
