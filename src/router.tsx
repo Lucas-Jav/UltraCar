@@ -4,15 +4,20 @@ import { FC } from "react";
 import Home from "@/routes/Home/Index";
 import NavBar from "@/components/NavBar/Index";
 import Footer from "@/components/Footer/Index";
+import Body from "@/components/Body/Index";
 
 const Router: FC = () => {
   return (
     <>
       <BrowserRouter basename="/">
         <NavBar />
-        <Routes>
-          <Route index path="/" element={<Home />}/>
-        </Routes>
+
+        <Body>
+          <Routes>
+            <Route index path="/" element={<Home />}/>
+          </Routes>
+        </Body>
+
         <Footer />
       </BrowserRouter>
     </>
