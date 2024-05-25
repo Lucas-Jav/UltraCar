@@ -1,7 +1,7 @@
 import DriverCard from "@/components/CardsDownloadApp/DriverCard";
 import UserCard from "@/components/CardsDownloadApp/UserCard";
-import { Box, Button, Chip, Stack, Typography, useMediaQuery } from "@mui/material";
-import { FC, useEffect, useState } from "react";
+import { Box, Chip, Stack, Typography, useMediaQuery } from "@mui/material";
+import { FC, useState } from "react";
 
 const ScreenTwo : FC = () => {
     const [chipSelected, setChipSelected] = useState("user");

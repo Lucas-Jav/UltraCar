@@ -1,7 +1,5 @@
-import DriverCard from "@/components/CardsDownloadApp/DriverCard";
-import UserCard from "@/components/CardsDownloadApp/UserCard";
-import { Box, Button, Chip, Stack, Typography, useMediaQuery } from "@mui/material";
-import { FC, useEffect, useState } from "react";
+import { Box, Button, Typography, useMediaQuery } from "@mui/material";
+import { FC } from "react";
 
 const ScreenThree: FC = () => {
     // responsive
