@@ -50,10 +50,16 @@ ou
 
 ## Rodando com Docker
 
-na pasta do projeto, rode este comando:
+na pasta do projeto, rode este comando para fazer o build:
 
 ```docker
-  docker-compose up --build --no-recreate -d
+  docker-compose build
+```
+
+em seguide, roda o container:
+
+```docker
+  docker run -p 8081:80 ultra_car-web
 ```
 
 ## Documentação
